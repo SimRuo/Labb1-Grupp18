@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <h1 class="text-center">Grupp 18 labb 1</h1>
+    <div class="container mt-5 border" style="min-height: 85vh">
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+          <div class="mb-5 mt-5">
+            <label class="form-label">What color would you like?</label>
+            <input type="text" class="textfield form-control" name="color" id="color" />
+            <label class="form-label">Apply Colorchange</label>
+            <input type="checkbox" class="checkbox" name="checkbox" id="checkbox" />
+          </div>
+          <div class="mb-5">
+            <label class="form-label">What content would you like?</label>
+            <input type="text" class="textfield form-control" name="content" id="content" />
+          </div>
+          <div class="mb-1">
+            <button class="btn btn-danger mb-5" id="delete">Delete</button>
+          </div>
+          <div id="contentOutput"></div>
+        </div>
+      </div>
+      <div class="col-3"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
