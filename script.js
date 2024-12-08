@@ -1,4 +1,4 @@
-const checkbox = document.getElementById("checkbox");
+const checkbox = document.getElementById("divStyle");
 const inputFields = document.querySelectorAll(".textfield"); //getElementsByClass returnerar en HTMLcollection så använder denna istället så vi kan köra en foreach
 const contentOutput = document.getElementById("contentOutput");
 const removeOutput = document.getElementById("delete");
